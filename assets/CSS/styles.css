@@ -36,14 +36,14 @@ h3 {
 
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
-  height: 200px;
+  height: 120px;
   padding-top: 20px;
   background: #cdcdcd;
 }
 
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
-  padding: 60px;
+  padding: 30px;
   margin: 0;
   color: #000;
   text-align: center;
@@ -70,5 +70,14 @@ h3 {
   	margin-top: 30px;
   	margin-right: 70px;
   	margin-left: 70px;
+  }
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+  	font-size: 40px;
+  	padding: 30px;
+  	margin: 0;
+  	color: #000;
+  	text-align: center;
   }
 
